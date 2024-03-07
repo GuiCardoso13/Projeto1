@@ -10,6 +10,7 @@
 
 * {
     outline: 1px solid var(--primary-color);
+    margin: 0;
 }
 
 header {
@@ -33,9 +34,54 @@ header .item {
     justify-content: center;
     align-items: center;
 }
+header .item:hover{
+    background-color: var(--quartenary-color);
+    transition: all 0.5s;
+}
 
 header .item a{
     text-decoration: none;
     color: var(--light-color);
     font-size: 1.2rem;
+}
+section {
+    height: 80vh;
+    padding: 32px;
+}
+section h1{
+    font-size: 2rem;
+}
+section p{
+    font-size: 1.2rem;
+}
+section .image-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .image-list img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.brasil{
+    background-color: var(--tertiary-color);
+}
+.india{
+    background-color: var(--primary-color);
+}
+.china{
+    background-color: var(--secondary-color);
+}
+.italia{
+    background-color: var(--quartenary-color);
+}
+.peru{
+    background-color: var(--quinary-color);
+}
+.jordania{
+    background-color: var(--tertiary-color);
+}
+.mexico{
+    background-color: var(--secondary-color);
 }
